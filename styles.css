@@ -1,0 +1,6 @@
+.roomType {
+    background-color: beige;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

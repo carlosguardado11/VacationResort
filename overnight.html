@@ -27,10 +27,20 @@
         <input type="date" class="date" id="checkinDate">
     </div>
     <div class="roomType">
-        <label for="roomsize">Queen Size</label>
-        <input type="radio" class="roomSize" id="queenBdr" name="roomSize">
+        <p>Select Your Room Size</p>
+        <label for="queenSize">Queen Size (fits 2 adults)</label>
+        <input type="radio" class="roomSize" id="queenBdr">
+
+        <label for="kingSize">King Size (fits 2 adults)</label>
+        <input type="radio" class="roomSize" id="kingBdr">
+
+        <label for="twoBdr">2-Bedroom Suite (fits 4 people)</label>
+        <input type="radio" class="roomSize" id="twoBdr">
 
     </div>
+    <p class="text-center my-4">
+        <input type="button" class="calculate" id="submit" value="Get Pricing" />
+    </p>
 
 
 
